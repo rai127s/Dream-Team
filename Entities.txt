@@ -1,0 +1,43 @@
+Notices
+Events 
+Members
+
+Notices
+
+1.ID - int
+2.title - string
+3.text - string
+4.date posted - date/time
+5.date of - date/time
+6.importance - int
+7.type - string
+8.posted by - string
+
+
+MEMBER
+
+1.ID - int
+2.name - string
+3.surname - string
+4.email - string
+5.phone - int
+6.address - string
+7.date joined - date/time
+8.age - int
+
+Events
+
+1.ID - int
+2.title - string
+3.text - string
+4.location - string
+5.date posted - date/time
+6.date of - date/time
+7.Host - string
+8.type - string
+9.Host contact - string
+
+
+
+
+			
