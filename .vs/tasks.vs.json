@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Notices",
+      "appliesTo": "NoticeBoard/NoticeBoard/Notices.cs",
+      "type": "launch"
+    }
+  ]
+}
