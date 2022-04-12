@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj": {}
+    "C:\\Users\\35383\\Source\\Repos\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj": {
+    "C:\\Users\\35383\\Source\\Repos\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
+        "projectUniqueName": "C:\\Users\\35383\\Source\\Repos\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
         "projectName": "NoticeBoard",
-        "projectPath": "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
+        "projectPath": "C:\\Users\\35383\\Source\\Repos\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
         "packagesPath": "C:\\Users\\35383\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\obj\\",
+        "outputPath": "C:\\Users\\35383\\Source\\Repos\\NoticeBoard\\NoticeBoard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
