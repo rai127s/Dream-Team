@@ -8,24 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\35383\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\raiss\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
+      "projectUniqueName": "C:\\Users\\raiss\\OneDrive - Limerick Institute Of Technology\\SD1B\\Year 2\\Semester 2\\Applications Development\\GroupProjec\\Dream-Team\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
       "projectName": "NoticeBoard",
-      "projectPath": "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
-      "packagesPath": "C:\\Users\\35383\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\35383\\Desktop\\NoticeBoard\\NoticeBoard\\obj\\",
+      "projectPath": "C:\\Users\\raiss\\OneDrive - Limerick Institute Of Technology\\SD1B\\Year 2\\Semester 2\\Applications Development\\GroupProjec\\Dream-Team\\NoticeBoard\\NoticeBoard\\NoticeBoard.csproj",
+      "packagesPath": "C:\\Users\\raiss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raiss\\OneDrive - Limerick Institute Of Technology\\SD1B\\Year 2\\Semester 2\\Applications Development\\GroupProjec\\Dream-Team\\NoticeBoard\\NoticeBoard\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\35383\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\raiss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
