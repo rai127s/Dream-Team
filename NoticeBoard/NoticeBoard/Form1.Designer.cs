@@ -1,7 +1,7 @@
 ﻿
 namespace NoticeBoard
 {
-    partial class Form1
+    partial class loginForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -109,7 +109,7 @@ namespace NoticeBoard
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
-            // Form1
+            // loginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,8 +122,9 @@ namespace NoticeBoard
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "loginForm";
+            this.Text = "Notice Board";
+            this.Load += new System.EventHandler(this.loginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

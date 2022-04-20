@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace NoticeBoard
 {
-    public partial class Form1 : Form
+    public partial class loginForm : Form
     {
         public static List<MemberInfo> MemberList = new List<MemberInfo>();
 
-        public Form1()
+        public loginForm()
         {
             InitializeComponent();
         }
@@ -50,6 +50,13 @@ namespace NoticeBoard
             {
                 MessageBox.Show("Invalid Details");
             }
+        }
+
+        private void loginForm_Load(object sender, EventArgs e)
+        {
+            MemberInfo m1 = new MemberInfo(1, "raissap", "Raissa", "Pululu", "raissa@gmail.com", 0894957871, "Limerick", 20);
+            MemberInfo m2 = new MemberInfo(2, "charleyr", "Charley", "Rutledge", "charley@gmail.com", 011, "Limerick", 26);
+            MemberInfo m3 = new MemberInfo(3, "jamess", "James", "Sherlock", "james@gmail.com", 087, "Limerick", 22);
         }
     }
 }
