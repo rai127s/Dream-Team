@@ -33,7 +33,6 @@ namespace NoticeBoard
             {
                 MemberList.Add(member);
             }
-            Close();
         }
     }
 }
