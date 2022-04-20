@@ -24,5 +24,14 @@ namespace NoticeBoard
         {
 
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            member.memberID = Convert.ToInt32(textBxMemID.Text);
+            member.username = txtBxUN.Text;
+            member.Fname = txtBxFN.Text;
+            member.Sname=txtBxLN.
+
+        }
     }
 }
