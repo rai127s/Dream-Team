@@ -25,12 +25,22 @@ namespace NoticeBoard
 
         }
 
+        public bool regMem { get; set; }
+        public MemberInfo members { get; set; }
+
         private void btnRegister_Click(object sender, EventArgs e)
         {
+            if (regMem){members = new MemberInfo();}
+
             member.memberID = Convert.ToInt32(textBxMemID.Text);
             member.username = txtBxUN.Text;
             member.Fname = txtBxFN.Text;
-            member.Sname=txtBxLN.
+            member.Sname = txtBxLN.Text;
+            member.email = txtBxEmail.Text;
+            member.address = richTextBoxAddress.Text;
+            member.age = Convert.ToInt32(textBoxAge.Text);
+
+            this.DialogResult = DialogResult.OK;
 
         }
     }
