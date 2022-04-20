@@ -37,10 +37,11 @@ namespace NoticeBoard
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            MemberInfo member = new MemberInfo();
             string user = txtBoxUN.Text;
             int phone = Convert.ToInt32(txtBoxPN.Text);
 
-            if (user == "raissap" && phone == 0894957871) 
+            if (user == member.username && phone == member.phone) 
             {
                 MessageBox.Show("Successful Login");
             }
@@ -56,6 +57,10 @@ namespace NoticeBoard
             MemberInfo m1 = new MemberInfo(1, "raissap", "Raissa", "Pululu", "raissa@gmail.com", 0894957871, "Limerick", 20);
             MemberInfo m2 = new MemberInfo(2, "charleyr", "Charley", "Rutledge", "charley@gmail.com", 011, "Limerick", 26);
             MemberInfo m3 = new MemberInfo(3, "jamess", "James", "Sherlock", "james@gmail.com", 087, "Limerick", 22);
+
+            MemberList.Add(m1);
+            MemberList.Add(m2);
+            MemberList.Add(m3);
         }
     }
 }
