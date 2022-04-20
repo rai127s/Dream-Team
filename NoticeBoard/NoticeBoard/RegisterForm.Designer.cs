@@ -124,35 +124,35 @@ namespace NoticeBoard
             // 
             this.textBxMemID.Location = new System.Drawing.Point(128, 44);
             this.textBxMemID.Name = "textBxMemID";
-            this.textBxMemID.Size = new System.Drawing.Size(125, 27);
+            this.textBxMemID.Size = new System.Drawing.Size(207, 27);
             this.textBxMemID.TabIndex = 8;
             // 
             // txtBxUN
             // 
             this.txtBxUN.Location = new System.Drawing.Point(128, 85);
             this.txtBxUN.Name = "txtBxUN";
-            this.txtBxUN.Size = new System.Drawing.Size(125, 27);
+            this.txtBxUN.Size = new System.Drawing.Size(207, 27);
             this.txtBxUN.TabIndex = 9;
             // 
             // txtBxFN
             // 
             this.txtBxFN.Location = new System.Drawing.Point(128, 129);
             this.txtBxFN.Name = "txtBxFN";
-            this.txtBxFN.Size = new System.Drawing.Size(125, 27);
+            this.txtBxFN.Size = new System.Drawing.Size(207, 27);
             this.txtBxFN.TabIndex = 10;
             // 
             // txtBxLN
             // 
             this.txtBxLN.Location = new System.Drawing.Point(128, 170);
             this.txtBxLN.Name = "txtBxLN";
-            this.txtBxLN.Size = new System.Drawing.Size(125, 27);
+            this.txtBxLN.Size = new System.Drawing.Size(207, 27);
             this.txtBxLN.TabIndex = 11;
             // 
             // txtBxEmail
             // 
             this.txtBxEmail.Location = new System.Drawing.Point(128, 210);
             this.txtBxEmail.Name = "txtBxEmail";
-            this.txtBxEmail.Size = new System.Drawing.Size(125, 27);
+            this.txtBxEmail.Size = new System.Drawing.Size(207, 27);
             this.txtBxEmail.TabIndex = 12;
             // 
             // txtBxPN
@@ -166,14 +166,14 @@ namespace NoticeBoard
             // 
             this.textBoxAge.Location = new System.Drawing.Point(127, 376);
             this.textBoxAge.Name = "textBoxAge";
-            this.textBoxAge.Size = new System.Drawing.Size(125, 27);
+            this.textBoxAge.Size = new System.Drawing.Size(33, 27);
             this.textBoxAge.TabIndex = 15;
             // 
             // richTextBoxAddress
             // 
             this.richTextBoxAddress.Location = new System.Drawing.Point(127, 287);
             this.richTextBoxAddress.Name = "richTextBoxAddress";
-            this.richTextBoxAddress.Size = new System.Drawing.Size(125, 61);
+            this.richTextBoxAddress.Size = new System.Drawing.Size(208, 61);
             this.richTextBoxAddress.TabIndex = 16;
             this.richTextBoxAddress.Text = "";
             // 
@@ -191,7 +191,7 @@ namespace NoticeBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(296, 457);
+            this.ClientSize = new System.Drawing.Size(361, 470);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.richTextBoxAddress);
             this.Controls.Add(this.textBoxAge);

@@ -31,10 +31,8 @@ namespace NoticeBoard
             this.age = age;
         }
 
-        public MemberInfo()
-        {
-            
-        }
+        public MemberInfo() { };
+
 
         public static void AddMemberToList(MemberInfo member)
         {

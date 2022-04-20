@@ -37,6 +37,7 @@ namespace NoticeBoard
             member.Fname = txtBxFN.Text;
             member.Sname = txtBxLN.Text;
             member.email = txtBxEmail.Text;
+            member.phone = Convert.ToInt32(txtBxPN.Text);
             member.address = richTextBoxAddress.Text;
             member.age = Convert.ToInt32(textBoxAge.Text);
 

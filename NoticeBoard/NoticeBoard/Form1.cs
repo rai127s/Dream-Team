@@ -34,5 +34,22 @@ namespace NoticeBoard
                 MemberList.Add(member);
             }
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            MemberInfo member = new MemberInfo();
+            string user = txtBoxUN.Text;
+            int phone = Convert.ToInt32(txtBoxPN.Text);
+
+            if (user == member.username && phone == member.phone) 
+            {
+                MessageBox.Show("Successful Login");
+            }
+
+            else
+            {
+                MessageBox.Show("Invalid Details");
+            }
+        }
     }
 }
