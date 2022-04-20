@@ -35,23 +35,6 @@ namespace NoticeBoard
             }
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            MemberInfo member = new MemberInfo();
-            string user = txtBoxUN.Text;
-            int phone = Convert.ToInt32(txtBoxPN.Text);
-
-            if (user == member.username && phone == member.phone) 
-            {
-                MessageBox.Show("Successful Login");
-            }
-
-            else
-            {
-                MessageBox.Show("Invalid Details");
-            }
-        }
-
         private void loginForm_Load(object sender, EventArgs e)
         {
             MemberInfo m1 = new MemberInfo(1, "raissap", "Raissa", "Pululu", "raissa@gmail.com", 0894957871, "Limerick", 20);
@@ -62,5 +45,24 @@ namespace NoticeBoard
             MemberList.Add(m2);
             MemberList.Add(m3);
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            MemberInfo member = new MemberInfo();
+            string user = Convert.ToString(txtBoxUN.Text);
+            int phone = Convert.ToInt32(txtBoxPN.Text);
+
+            if (user == MemberList.Contains() && phone == member.phone) 
+            {
+                MessageBox.Show("Successful Login");
+            }
+
+            else
+            {
+                MessageBox.Show("Invalid Details");
+            }
+        }
+
+       
     }
 }
