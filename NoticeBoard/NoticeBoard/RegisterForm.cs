@@ -12,9 +12,17 @@ namespace NoticeBoard
 {
     public partial class RegisterForm : Form
     {
-        public RegisterForm()
+        MemberInfo member;
+
+        public RegisterForm(MemberInfo m)
         {
+            this.member = m;
             InitializeComponent();
+        }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
